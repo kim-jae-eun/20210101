@@ -5,3 +5,5 @@
 - `git stash list` : stash 목록을 확인한다.
 - `git stash drop` : 가장 최신 stash를 목록에서 지운다.
 - `git stash pop` : 가장 최신 stash를 되돌림과 동시에 목록에서 지운다. ==`git stash apply; git stash drop;`
+
+*주의사항: `git stash`를 쓸 수 있는 파일은 최소한 `tracked`되어야 한다. 파일을 처음 생성 후 `git add`를 해 주어야 `git stash`를 사용할 수 있다.
